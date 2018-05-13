@@ -1,0 +1,6 @@
+{
+  "name": "fusion-charts",
+  "dependencies": {
+    "fusioncharts": "^3.12.2"
+  }
+}

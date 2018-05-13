@@ -7,6 +7,12 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+    app.import('bower_components/fusioncharts/fusioncharts.js');
+    app.import('bower_components/fusioncharts/fusioncharts.charts.js');
+    app.import('bower_components/fusioncharts/themes/fusioncharts.theme.fint.js');
+    app.import('bower_components/fusioncharts/themes/fusioncharts.theme.ocean.js');
+
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
